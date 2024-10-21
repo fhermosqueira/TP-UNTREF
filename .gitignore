@@ -1,3 +1,4 @@
 /sauceLab/tests/.env
+/sauceLab/tests/__pycache__
 /sauceLab/test-reports
 /sauceLab/__pycache__
