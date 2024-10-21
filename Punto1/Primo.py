@@ -1,14 +1,14 @@
 def primo(num):
     if num <= 1:
-        return False  # Los números menores o iguales a 1 no son primos
+        return False  
     if num == 2:  
-        return True  # El 2 es el único número primo par
+        return True  
     if num % 2 == 0:
-        return False  # Si es par y mayor que 2, no es primo
-    for i in range(3, num):  # Revisa divisores desde 3 hasta n-1
+        return False  
+    for i in range(3, num):  
         if num % i == 0:  
-            return False  # Si encontramos un divisor exacto, no es primo
-    return True  # Si no se encontró ningún divisor, es primo
+            return False  
+    return True  
 
 print('Ingrese un número:')
 num = int(input())
