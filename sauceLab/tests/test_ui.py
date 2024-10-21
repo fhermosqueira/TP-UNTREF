@@ -29,11 +29,11 @@ class Compras(unittest.TestCase):
         cls.driver.quit()
 
     def setUp(self) -> None:
+        #self.driver = webdriver.Firefox()
         load_dotenv()
         #base_url = os.getenv('BASE_URL')
         user = os.getenv('USER')
         password = os.getenv('PASS')
-        #self.driver = webdriver.Firefox()
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
         self.driver.get(os.getenv('BASE_URL'))
