@@ -29,6 +29,9 @@ jobs:
             - name: Set environment variables
               run: echo "WEB_DATA=${{ secrets.WEB_DATA}}" >> $GITHUB_ENV
 
+            - name: Create test reports directory #
+              run: mkdir -p test-reports #
+
             - name: Run Selenium tests
               run: |
                 python -m unittest discover -s tests
