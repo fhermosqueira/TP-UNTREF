@@ -1,5 +1,2 @@
-/sauceLab/tests/.env
-/sauceLab/tests/__pycache__
-/sauceLab/test-reports
-/sauceLab/__pycache__
-/VIEJOtestapi.py
+/tests/.env
+/tests/__pycache__

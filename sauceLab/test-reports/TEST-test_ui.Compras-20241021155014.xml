@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test_ui.Compras-20241021155014" tests="3" file="test_ui.py" time="26.584" timestamp="2024-10-21T15:50:46" failures="0" errors="0" skipped="0">
-	<testcase classname="test_ui.Compras" name="test_case_one" time="1.539" timestamp="2024-10-21T15:50:21" file="tests\test_ui.py" line="40"/>
-	<testcase classname="test_ui.Compras" name="test_case_three" time="22.533" timestamp="2024-10-21T15:50:44" file="tests\test_ui.py" line="62"/>
-	<testcase classname="test_ui.Compras" name="test_case_two" time="2.512" timestamp="2024-10-21T15:50:46" file="tests\test_ui.py" line="46"/>
-</testsuite>
